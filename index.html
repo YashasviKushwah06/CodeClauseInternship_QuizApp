@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2>QuizZone</h2>
+                <ul class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+
+        <div class="quiz-container">
+            <div class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Web Dev Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score">Score: 0/5</span>
+                    </div>
+
+                    <h2 class="question-text">What does HTML stand for?</h2>
+
+                    <div class="option-list"></div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your score 0 out of 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="home-btn">Go To Home</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body">
+                <h1>Quiz Time</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsa sequi 
+                    ad minima. Fuga in eaque nisi, iusto ad esse quaerat numquam iure provident
+                    molestiae! Voluptates autem enim doloremque consectetur!
+                </p>
+                <button class="start-btn">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-info">
+        <h3>Quiz Guide</h3>
+        <span class="info">1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <span class="info">4. Lorem ipsum dolor sit amet, adipisicing elit.</span>
+        <span class="info">2. Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+        <span class="info">3. Lorem ipsum dolor sit amet, consectetur .</span>
+        <span class="info">5. Lorem ipsum dolor sit amet, consectetur elit.</span>
+
+        <div class="btn-grp">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="question.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
